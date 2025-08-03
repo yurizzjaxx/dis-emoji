@@ -58,7 +58,7 @@ def showInput():
        teminToken(choice)
     else:
        loop = False
-       print(f"{Fore.RED}EXIT !")
+       print(f"{Fore.RED}EXIT !{Style.RESET_ALL}")
 
 
 
