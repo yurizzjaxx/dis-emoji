@@ -1,6 +1,5 @@
 import os
 
-print("Loading wait...", end="")
 os.system("pip install colorama")
 from colorama import Fore, Back, Style
 from time import sleep, strftime, localtime
@@ -59,11 +58,10 @@ def showInput():
        teminToken(choice)
     else:
        loop = False
-       sys.exit
        print(f"{Fore.RED}EXIT !")
 
 
 
 if __name__ == "__main__":
-   print("\rSuccess")
+   print("Success")
    showInput()
